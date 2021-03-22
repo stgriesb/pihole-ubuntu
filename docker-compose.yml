@@ -1,6 +1,3 @@
-# pihole-unbound.tar.gz unter portainer importieren
-# sudo docker-compose -f /volume1/docker/pihole/docker-compose.yml up -d
-
 version: '3'
 services:
   pihole:
@@ -20,11 +17,11 @@ services:
       - '/volume1/docker/pihole/etc-pihole:/etc/pihole'
     environment:
       TZ: 'Europe/Berlin'
-      WEBPASSWORD: 'j0x8rT4%sG'
-      ServerIP: '192.168.178.60'
+      WEBPASSWORD: 'WEBPASSWORD'
+      ServerIP: ''
       REV_SERVER: 'true'
-      REV_SERVER_DOMAIN: 'fritz.box'
-      REV_SERVER_TARGET: '192.168.178.1'
-      REV_SERVER_CIDR: '192.168.178.0/24'
+      REV_SERVER_DOMAIN: ''
+      REV_SERVER_TARGET: ''
+      REV_SERVER_CIDR: ''
       DNS1: 127.0.0.1#5335
       DNS2: 127.0.0.1#5335
