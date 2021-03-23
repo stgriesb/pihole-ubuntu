@@ -19,7 +19,7 @@ services:
     environment:
       TZ: 'Europe/Berlin'
       WEBPASSWORD: 'WEBPASSWORD'
-      ServerIP: ''
+      ServerIP: 'xxx.xxx.xxx.xxx'
       REV_SERVER: 'true'
       REV_SERVER_DOMAIN: 'fritz.box'
       REV_SERVER_TARGET: 'xxx.xxx.xxx.xxx'
