@@ -1,7 +1,7 @@
 version: '3'
 services:
   pihole-unbound:
-    image: pihole-unbound
+    image: stgriesb/pihole-unbound
     container_name: pihole-unbound
     network_mode: host
     dns:
